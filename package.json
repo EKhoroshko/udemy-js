@@ -8,7 +8,15 @@
   },
   "author": "",
   "license": "ISC",
+  "brousersList": [
+    "> 1%"
+  ],
   "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-loader": "^8.2.5",
+    "core-js": "^3.22.4",
     "json-server": "^0.17.0",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2"
@@ -21,5 +29,8 @@
     "url": "https://github.com/EKhoroshko/udemy-js/issues"
   },
   "homepage": "https://github.com/EKhoroshko/udemy-js#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
 }
