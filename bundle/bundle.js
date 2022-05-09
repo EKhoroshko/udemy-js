@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./js/module/calculater.js":
-/*!*********************************!*\
-  !*** ./js/module/calculater.js ***!
-  \*********************************/
+/***/ "./src/js/module/calculater.js":
+/*!*************************************!*\
+  !*** ./src/js/module/calculater.js ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -140,17 +140,17 @@ function calc() {
 
 /***/ }),
 
-/***/ "./js/module/cards.js":
-/*!****************************!*\
-  !*** ./js/module/cards.js ***!
-  \****************************/
+/***/ "./src/js/module/cards.js":
+/*!********************************!*\
+  !*** ./src/js/module/cards.js ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _service_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../service/service */ "./js/service/service.js");
+/* harmony import */ var _service_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../service/service */ "./src/js/service/service.js");
 
 
 function cards() {
@@ -205,18 +205,18 @@ function cards() {
 
 /***/ }),
 
-/***/ "./js/module/form.js":
-/*!***************************!*\
-  !*** ./js/module/form.js ***!
-  \***************************/
+/***/ "./src/js/module/form.js":
+/*!*******************************!*\
+  !*** ./src/js/module/form.js ***!
+  \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _modal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modal */ "./js/module/modal.js");
-/* harmony import */ var _service_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../service/service */ "./js/service/service.js");
+/* harmony import */ var _modal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modal */ "./src/js/module/modal.js");
+/* harmony import */ var _service_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../service/service */ "./src/js/service/service.js");
 
 
 
@@ -292,10 +292,10 @@ function form(formSelector, modalTimeId) {
 
 /***/ }),
 
-/***/ "./js/module/modal.js":
-/*!****************************!*\
-  !*** ./js/module/modal.js ***!
-  \****************************/
+/***/ "./src/js/module/modal.js":
+/*!********************************!*\
+  !*** ./src/js/module/modal.js ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -356,10 +356,10 @@ function modal(trigerSelector, modalSelector, modalTimeId) {
 
 /***/ }),
 
-/***/ "./js/module/slider.js":
-/*!*****************************!*\
-  !*** ./js/module/slider.js ***!
-  \*****************************/
+/***/ "./src/js/module/slider.js":
+/*!*********************************!*\
+  !*** ./src/js/module/slider.js ***!
+  \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -443,10 +443,10 @@ function slider({ slideItem, sliderbox, prevArrow, nextArrow, totalSlide, curren
 
 /***/ }),
 
-/***/ "./js/module/tabs.js":
-/*!***************************!*\
-  !*** ./js/module/tabs.js ***!
-  \***************************/
+/***/ "./src/js/module/tabs.js":
+/*!*******************************!*\
+  !*** ./src/js/module/tabs.js ***!
+  \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -496,10 +496,10 @@ function tabs(itemTabs, tabContent, tabParent, tabsActive) {
 
 /***/ }),
 
-/***/ "./js/module/timer.js":
-/*!****************************!*\
-  !*** ./js/module/timer.js ***!
-  \****************************/
+/***/ "./src/js/module/timer.js":
+/*!********************************!*\
+  !*** ./src/js/module/timer.js ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -570,10 +570,10 @@ function timer(timerSelector, deadline) {
 
 /***/ }),
 
-/***/ "./js/service/service.js":
-/*!*******************************!*\
-  !*** ./js/service/service.js ***!
-  \*******************************/
+/***/ "./src/js/service/service.js":
+/*!***********************************!*\
+  !*** ./src/js/service/service.js ***!
+  \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -659,17 +659,17 @@ const getResurce = async (url) => {
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-/*!**********************!*\
-  !*** ./js/script.js ***!
-  \**********************/
+/*!**************************!*\
+  !*** ./src/js/script.js ***!
+  \**************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _module_tabs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module/tabs */ "./js/module/tabs.js");
-/* harmony import */ var _module_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./module/slider */ "./js/module/slider.js");
-/* harmony import */ var _module_calculater__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./module/calculater */ "./js/module/calculater.js");
-/* harmony import */ var _module_cards__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./module/cards */ "./js/module/cards.js");
-/* harmony import */ var _module_form__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./module/form */ "./js/module/form.js");
-/* harmony import */ var _module_modal__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./module/modal */ "./js/module/modal.js");
-/* harmony import */ var _module_timer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./module/timer */ "./js/module/timer.js");
+/* harmony import */ var _module_tabs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module/tabs */ "./src/js/module/tabs.js");
+/* harmony import */ var _module_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./module/slider */ "./src/js/module/slider.js");
+/* harmony import */ var _module_calculater__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./module/calculater */ "./src/js/module/calculater.js");
+/* harmony import */ var _module_cards__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./module/cards */ "./src/js/module/cards.js");
+/* harmony import */ var _module_form__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./module/form */ "./src/js/module/form.js");
+/* harmony import */ var _module_modal__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./module/modal */ "./src/js/module/modal.js");
+/* harmony import */ var _module_timer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./module/timer */ "./src/js/module/timer.js");
 
 
 
